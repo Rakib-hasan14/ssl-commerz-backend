@@ -58,13 +58,13 @@ exports.initSSL = async (req,res) => {
 }
 
 exports.successSSL = async (req,res) => {
-    res.redirect(`http://localhost:3000/success`)
+    res.redirect(`https://bejewelled-salmiakki-c36e8f.netlify.app/success`)
 }
 
 exports.failSSL = async (req,res) => {
-    res.redirect(`http://localhost:3000/fail`)
+    res.redirect(`https://bejewelled-salmiakki-c36e8f.netlify.app/fail`)
 }
 
 exports.cancalSSL = async (req,res) => {
-    res.redirect(`http://localhost:3000/fail`)
+    res.redirect(`https://bejewelled-salmiakki-c36e8f.netlify.app/fail`)
 }
