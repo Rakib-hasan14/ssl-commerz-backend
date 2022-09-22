@@ -6,7 +6,7 @@ exports.initSSL = async (req,res) => {
         total_amount: req.body.amount,
         currency: 'BDT',
         tran_id: 'uniqe',
-        success_url: 'https://pgw-user-interface-czqq-wuj712j8r-rakib-hasan14.vercel.app/success/',
+        success_url: 'https://pgw-user-interface-czqq-wuj712j8r-rakib-hasan14.vercel.app/',
         fail_url: 'https://pgw-user-interface-czqq-wuj712j8r-rakib-hasan14.vercel.app/fail/',
         cancel_url: 'https://pgw-user-interface-czqq-wuj712j8r-rakib-hasan14.vercel.app/fail/',
         ipn_url: 'https://pgw-user-interface-czqq-wuj712j8r-rakib-hasan14.vercel.app/',
