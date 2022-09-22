@@ -6,10 +6,10 @@ exports.initSSL = async (req,res) => {
         total_amount: req.body.amount,
         currency: 'BDT',
         tran_id: 'uniqe',
-        success_url: 'https://bejewelled-salmiakki-c36e8f.netlify.app/success',
-        fail_url: 'https://bejewelled-salmiakki-c36e8f.netlify.app/fail',
-        cancel_url: 'https://bejewelled-salmiakki-c36e8f.netlify.app/fail',
-        ipn_url: 'https://bejewelled-salmiakki-c36e8f.netlify.app/',
+        success_url: 'https://pgw-user-interface-czqq-wuj712j8r-rakib-hasan14.vercel.app/success',
+        fail_url: 'https://pgw-user-interface-czqq-wuj712j8r-rakib-hasan14.vercel.app/fail',
+        cancel_url: 'https://pgw-user-interface-czqq-wuj712j8r-rakib-hasan14.vercel.app/fail',
+        ipn_url: 'https://pgw-user-interface-czqq-wuj712j8r-rakib-hasan14.vercel.app/',
         paymentStatus: 'pending',
         shipping_method: 'Courier',
         product_name: 'computer',
@@ -58,13 +58,13 @@ exports.initSSL = async (req,res) => {
 }
 
 exports.successSSL = async (req,res) => {
-    res.redirect(`https://bejewelled-salmiakki-c36e8f.netlify.app/success`)
+    res.redirect(`https://pgw-user-interface-czqq-wuj712j8r-rakib-hasan14.vercel.app/success`)
 }
 
 exports.failSSL = async (req,res) => {
-    res.redirect(`https://bejewelled-salmiakki-c36e8f.netlify.app/fail`)
+    res.redirect(`https://pgw-user-interface-czqq-wuj712j8r-rakib-hasan14.vercel.app/fail`)
 }
 
 exports.cancalSSL = async (req,res) => {
-    res.redirect(`https://bejewelled-salmiakki-c36e8f.netlify.app/fail`)
+    res.redirect(`https://pgw-user-interface-czqq-wuj712j8r-rakib-hasan14.vercel.app/fail`)
 }
